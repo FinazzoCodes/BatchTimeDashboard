@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BatchTimeDashboard.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7212d1591aa071b6bb84d49b41ae4e97343cdae8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c62d3265ce88a4b57c75178dea8f5c933c76025")]
 [assembly: System.Reflection.AssemblyProductAttribute("BatchTimeDashboard.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BatchTimeDashboard.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

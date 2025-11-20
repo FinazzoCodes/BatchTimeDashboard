@@ -1,0 +1,43 @@
+﻿@page
+@model BatchTimeDashboard.Web.Pages.StatsModel
+
+<h1>Batch/CIP Time Stats</h1>
+
+<form method="get">
+    <label for="productSelect">Select Product:</label>
+    <select id="productSelect" name="product" onchange="this.form.submit()">
+        <option value="">-- choose --</option>
+
+        @if (Model.SelectedProduct == "187100ABLB")
+        {
+            <option value="187100ABLB" selected>187100ABLB</option>
+        }
+        else
+        {
+            <option value="187100ABLB">187100ABLB</option>
+        }
+
+        @if (Model.SelectedProduct == "CIP_AB1")
+        {
+            <option value="CIP_AB1" selected>CIP_AB1</option>
+        }
+        else
+        {
+            <option value="CIP_AB1">CIP_AB1</option>
+        }
+    </select>
+</form>
+@if (Model.HasResults)
+{
+    <hr />
+    <h3>Results for @Model.SelectedProduct</h3>
+
+    <p><strong>Runs:</strong> @Model.RunCount</p>
+    <p><strong>Average:</strong> @Model.AverageMinutes.ToString("F1") minutes</p>
+    <p><strong>Fastest:</strong> @Model.FastestMinutes.ToString("F1") minutes</p>
+    <p><strong>Slowest:</strong> @Model.SlowestMinutes.ToString("F1") minutes</p>
+}
+else if (!string.IsNullOrEmpty(Model.SelectedProduct))
+{
+    <p>No runs found for @Model.SelectedProduct.</p>
+}
