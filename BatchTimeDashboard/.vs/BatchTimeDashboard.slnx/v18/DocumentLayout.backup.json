@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\there\\source\\repos\\BatchTimeDashboard\\BatchTimeDashboard\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{921504E6-D0C5-485A-9DED-5C7E1D43CC99}|Solution Items{921504E6-D0C5-485A-9DED-5C7E1D43CC99}|C:\\Users\\there\\source\\repos\\BatchTimeDashboard\\BatchTimeDashboard\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{921504E6-D0C5-485A-9DED-5C7E1D43CC99}|Solution Items{921504E6-D0C5-485A-9DED-5C7E1D43CC99}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{898D9DAF-7C6A-48C9-9A2F-42D53579396A}|BatchTimeDashboard.Web\\BatchTimeDashboard.Web.csproj|c:\\users\\there\\source\\repos\\batchtimedashboard\\batchtimedashboard\\batchtimedashboard.web\\models\\processrun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{898D9DAF-7C6A-48C9-9A2F-42D53579396A}|BatchTimeDashboard.Web\\BatchTimeDashboard.Web.csproj|solutionrelative:batchtimedashboard.web\\models\\processrun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\there\\source\\repos\\BatchTimeDashboard\\BatchTimeDashboard\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\there\\source\\repos\\BatchTimeDashboard\\BatchTimeDashboard\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-20T18:37:33.753Z",
+              "Title": "ProcessRun.cs",
+              "DocumentMoniker": "C:\\Users\\there\\source\\repos\\BatchTimeDashboard\\BatchTimeDashboard\\BatchTimeDashboard.Web\\Models\\ProcessRun.cs",
+              "RelativeDocumentMoniker": "BatchTimeDashboard.Web\\Models\\ProcessRun.cs",
+              "ToolTip": "C:\\Users\\there\\source\\repos\\BatchTimeDashboard\\BatchTimeDashboard\\BatchTimeDashboard.Web\\Models\\ProcessRun.cs*",
+              "RelativeToolTip": "BatchTimeDashboard.Web\\Models\\ProcessRun.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T18:54:31.115Z",
               "EditorCaption": ""
             }
           ]
